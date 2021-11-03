@@ -19,6 +19,10 @@ public class Product {
     public Product() {
     }
 
+    public Product(Long id) {
+        this.id = id;
+    }
+
     // all arguments constructor
     public Product(Long id, String name, Double price, String pictureUrl) {
         this.id = id;
